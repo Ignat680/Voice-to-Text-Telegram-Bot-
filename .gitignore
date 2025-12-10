@@ -1,0 +1,11 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# Конфиденциальные данные
+config.py
+
+# Аудиофайлы
+*.ogg
+*.wav
