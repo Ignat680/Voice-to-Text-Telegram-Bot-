@@ -1,0 +1,2 @@
+mkdir Voice-to-Text-Telegram-Bot
+cd Voice-to-Text-Telegram-Bot
