@@ -14,3 +14,6 @@ TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 4. Running the BotBashpython bot.py
 📝 Key Files (for Reference)File NamePurposebot.pyMain bot logic (handling messages, downloading, converting audio, and transcription).config.pyStores secret credentials (Bot Token).requirements.txtLists all Python dependencies (python-telegram-bot, pydub, SpeechRecognition)..gitignoreEnsures that the virtual environment and config.py are not uploaded to GitHub.
+
+4. Running the BotBashpython bot.py
+📝 Key Files (for Reference)File NamePurposebot.pyMain bot logic (handling messages, downloading, converting audio, and transcription).config.pyStores secret credentials (Bot Token).requirements.txtLists all Python dependencies (python-telegram-bot, pydub, SpeechRecognition)..gitignoreEnsures that the virtual environment and config.py are not uploaded to GitHub.
