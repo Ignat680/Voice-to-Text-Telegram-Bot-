@@ -123,9 +123,7 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-       # 3. Запуск бота
-    logger.info("Бот запущен!")
-    application.run_polling(allowed_updates=Update.ALL_TYPES)
+ 
 
 
 
