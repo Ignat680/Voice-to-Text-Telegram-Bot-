@@ -105,3 +105,15 @@ if __name__ == '__main__':
      
 ----------
 
+    application.add_handler(CommandHandler("start", start_command))
+    
+    # Добавляем фильтр для голосовых сообщений
+    application.add_handler(MessageHandler(filters.Voice(), voice_to_text))
+
+    # 3. Запуск бота
+    logger.info("Бот запущен!")
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+
+if __name__ == '__main__':
+    main()
+    
